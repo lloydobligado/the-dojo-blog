@@ -1,8 +1,9 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Create from "./components/create";
 import BlogDetails from "./components/blog-details";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NotFound from "./components/not-found";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
