@@ -23,6 +23,12 @@
       "author": "yoshi",
       "body": "This release includes several new features that are designed to enhance the developer experience.",
       "id": 5
+    },
+    {
+      "title": "How to Build a React Admin Panel with Mantine and Strapi",
+      "author": "",
+      "body": "We'll be building a simple React Admin Panel with refine and Mantine using Strapi as a backend service.",
+      "id": 6
     }
   ]
 }
