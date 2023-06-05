@@ -15,7 +15,7 @@ const Create = () => {
     
     setIsPending(true)
 
-    async function addNewBlog(blog) {
+    const addNewBlog = async (blog) => {
       try {
         const response = await fetch('http://localhost:8000/blogs/', {
           method: 'POST',
