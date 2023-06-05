@@ -13,12 +13,6 @@
       "id": 2
     },
     {
-      "title": "INTRODUCTION TO PHP",
-      "author": "",
-      "body": "We'll be building a simple React Admin Panel with refine and Mantine using Strapi as a backend service.",
-      "id": 3
-    },
-    {
       "title": "Announcing the Release of refine v4!",
       "author": "yoshi",
       "body": "This release includes several new features that are designed to enhance the developer experience.",
